@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jiaxin Hu</title>
-    <link rel="shortcut icon" type="image/webp" href="image/Xiamen_University_logo.svg.webp">
+	<title>Jiaxin Hu's HomePage</title>
+    <link rel="shortcut icon" type="image/webp" href="image/xmu_logo.webp">
 	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
 </head>
@@ -14,29 +14,46 @@
 	<div style="font-size: 150%; width: 50%;">Jiaxin Hu</div>
 	<hr>
 	 
-	<div style="width:15%; height:15%; float:left; max-width: 200px;max-height: 200px; margin-right: 20px;">
+	<!-- <div style="width:15%; height:15%; float:left; max-width: 200px;max-height: 200px; margin-right: 20px;">
 		<img src ="image/photo.jpg" style = "width:100%; border-radius:15%;"/>
 	</div>
-	
+	 -->
+	<div style="width:30%; height:30%; float:right; max-width: 200px;max-height: 200px;">
+		<img src ="image/photo.jpg" style = "width:80%; border-radius:2%;"/>
+	</div>
+
 	<div style="width: auto; overflow: hidden;">
-		<p>
+		<!-- <p>
 		<a  target="_blank">School of Informatics</a><br>
 		<a  target="_blank">Xiamen University (XMU)</a><br>
 		</p>
+		<p> -->
+
 		<p>
+		<b>Ph.D. student</b> @Xiamen University<br>
+		School of Informatics<br>
+		System and Software Security Group<br>
+		Supervised by <b>Prof. <a href="https://wurongxin1987.github.io/wurongxin.xmu.edu.cn/" target="_blank">Rongxin Wu</b></a><br>
+		</p>
 		<!-- Address: xxx<br> -->
-		Email: hujiaxin@stu.xmu.edu.cn<br>
-		<a href="https://scholar.google.com/xxx" target="_blank">Google Scholar</a> | <a href="https://github.com/qwebug" target="_blank">GitHub</a>
+		<b>Email:</b> hujiaxin@stu.xmu.edu.cn<br>
+		<a href="https://scholar.google.com/xxx" target="_blank">Google Scholar</a> | <a href="https://orcid.org/0009-0004-0258-9573" target="_blank">ORCID</a> | <a href="https://github.com/qwebug" target="_blank">GitHub</a> 
 		</p>
 	</div>
 
 	<p>
-		<br>
-		I am a Ph.D. student.</a>.
-		<br>
+		<div>
+			<h3>Research Interests</h3>
+			<hr>
+			<ul>
+				<li><b>Artificial Intelligence for Software Engineering</b> (AI4SE)</li>
+				<li><b>Vulnerability Detection</b> for Data Systems and Heterogeneous Systems</li>
+				<li><b>AI Infrastructure</b> for Inference Frameworks and Edge Employment</li>
+			</ul>
+		</div>
 	</p>
 
-	<p>
+	<!-- <p>
 		<h3><img src="image/taba.png" style = "width:30px; border-radius:15%;vertical-align: bottom;" /> News</h3>
 		<hr>
 		<div class="content-box">
@@ -45,18 +62,76 @@
 			</div>
 		</div>
 
-	</p>
+	</p> -->
+
+	<section>
+			<h3>Education & Working Experience</h3>
+			<hr>
+			<ul class="education-list">
+				<li>
+					<div class="education-entry">
+						<div class="institution">Tencent Technology Company Limited</div>
+						<div class="education-date">April 2021 -- June 2023</div>
+						<div><strong>Worked as a Researcher</strong> on <i><a href="https://github.com/Tencent/TNN" target="_blank">TNN</a> Neural Network Inference Framework Team at <a href="https://open.youtu.qq.com/#/open" target="_blank">Youtu Lab</a></i></div>
+					</div>
+				</li>
+				<li>
+					<div class="education-entry">
+						<div class="institution">Harbin Engineering University</div>
+						<div class="education-date">September 2018 -- March 2021</div>
+						<div><strong>Master's Degree</strong> in <i>Electronic and Communication Engineering</i></div>
+					</div>
+				</li>
+				<li>
+					<div class="education-entry">
+						<div class="institution">Harbin Institute of Technology</div>
+						<div class="education-date">September 2014 -- June 2018</div>
+						<div><strong>Bachelor's Degree</strong> in <i>Electromagnetic Field and Wireless Technology</i></div>
+					</div>
+				</li>
+			</ul>
+	</section>
 
 	<p>
 		<div>
-			<h3>Research Interests</h3>
+			<h3>Selected Publications</h3>
 			<hr>
-			<!-- <img src="image/nerd-face.svg" style = "width:30px; border-radius:15%;vertical-align: middle;" />
-			My research interests span across Security, Database, Operating System, Software Engineering, and Artificial Intelligence. We aims to advance system design and implementation via principal methodology. Currently, we are interested in <br>
-			(1) enhancing system reliability, security, and performance via testing, formal verification, and program analysis; and <br>
-			(2) boosting the incorporation of AI and systems, including solidifying AI systems and facilitating systems with AI techniques. -->
+			<ol class="publication-list">
+				<li class="publication-entry">
+					<div class="publication-text">
+						<div class="title"><b>TDiFf: Detecting Bugs in DataFrame Systems via Transferred DBMS Test Cases</b></div>
+						<div class="authors"><b>Jiaxin Hu</b>, Shaowei Chen, Rongxin Wu</div>
+						<div class="conference">In Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (<i>ASE 2026</i>). October 12-16, 2026, Munich, Germany.</div>
+					</div>
+					<div class="links">[<a href="paper/ase26-tdiff-hu.pdf" target="_blank">PDF</a>]</div>
+						<!-- | <a href="https://www.youtube.com/xxx" target="_blank">YouTube</a>]</div> -->
+				</li>
+
+				<li class="publication-entry">
+					<div class="publication-text">
+						<div class="title"><b>SQLaw: Detecting Bugs in GPU Database Management Systems via Rule-Based Differential Execution</b></div>
+						<div class="authors"><b>Jiaxin Hu</b>, Rongxin Wu</div>
+						<div class="journal">IEEE Transactions on Software Engineering (<i>TSE 2025</i>). 2025, 51(7): 2144-2160.</div>
+					</div>
+					<div class="links">[<a href="paper/tse25-sqlaw-hu.pdf" target="_blank">PDF</a>]</div>
+						<!-- | <a href="https://www.youtube.com/xxx" target="_blank">YouTube</a>]</div> -->
+				</li>
+
+				<li class="publication-entry">
+					<div class="publication-text">
+						<div class="title"><b>PCBInnoBench: Benchmarking LLM Agents on Real-World PCB Design</b></div>
+						<div class="authors">Fuyuan Xia#, <b>Jiaxin Hu</b>#, Kewei Yu, Zihan Zhang, Zheng Wei, Hehan Liang, Xianyue Chen, Tongze Zhang, Xingbo Feng, Shixiong Kai, Zhentao Tang, Yuqi Cui, Mingxuan Yuan, Linfeng Zhang, Qibing Ren, Junchi Yan</div>
+						<div class="conference">In Proceedings of the 40th Annual Conference on Neural Information Processing Systems (<i>NeurIPS 2026</i>). 2026-12. </div>
+					</div>
+					<!-- <div class="links">[<a href="paper/xxx" target="_blank">PDF</a>]</div> -->
+						<!-- | <a href="https://www.youtube.com/xxx" target="_blank">YouTube</a>]</div> -->
+				</li>
+
+			</ol>
 		</div>
 	</p>
+
+
 
 	
 	<!-- <div>
@@ -88,11 +163,14 @@
 	</div> -->
 
 	<div>
-		<h3>Activities</h3>
+		<h3>Talk & Activities</h3>
 		<hr>
 		<div class="content-box">
 			<div class="news-list">
-				<li><b>Invited talk at xxx</b>: xxx (hosted by xxx, August 21, 2025)</li>
+				<!-- <li><b>Invited talk at xxx</b>: xxx (hosted by xxx, August 21, 2025)</li> -->
+				<li>
+				<div style="width: 90%;">TDiFf: Detecting Bugs in DataFrame Systems via Transferred DBMS Test Cases (Conference Talk), hosted by ASE 2026, Munich, Germany, October 2026</div>
+				</li>
 			</div>
 		</div>
 	</div>
@@ -108,7 +186,7 @@
 
 	<div style="font-size: 90%; text-align: center; margin-top: 20px; color: #666;">
 		<hr style="margin: 8px 0;" />
-		© Copyright <span data-current-year></span> Jiaxin Hu. All rights reserved.
+		© Copyright <span data-current-year></span> Jiaxin Hu.
 	</div>
 	<script src="script.js"></script>
 </body></html>
